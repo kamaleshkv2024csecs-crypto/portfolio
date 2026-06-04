@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">KAMALESH K V</h1>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+     <br>
+  <main>
+    <section class="hero container">
+      <h2>Hi — I'm Kamalesh</h2>
+      <p>B.E. CSE (Cybersecurity) student building small apps and web projects. I focus on clean UX, solid logic, and practical tools.</p>
+      <a class="cta" href="#projects">See my work</a>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h3>Selected Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <img src="assets/project1.svg" alt="Tic Tac Toe screenshot" style="width:100%;border-radius:6px;margin-bottom:.5rem" />
+          <h4>Tic Tac Toe</h4>
+          <p>A classic two-player Tic Tac Toe game implemented in JavaScript with input validation, win-condition checks, and a clean UI. Strengthened control flow and game logic skills.</p>
+          <p><strong>Tech:</strong> JavaScript, HTML, CSS</p>
+        </article>
+        <article class="card">
+          <img src="assets/project2.svg" alt="iBackup screenshot" style="width:100%;border-radius:6px;margin-bottom:.5rem" />
+          <h4>File Backup & Restore System (iBackup)</h4>
+          <p>Java-based desktop application to create secure backups of important files and restore them when needed. Focuses on data protection and reliability.</p>
+          <p><strong>Tech:</strong> Java, File I/O</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About Me</h3>
+      <p>I'm a B.E CSE (Cybersecurity) student (2024–2028) passionate about algorithms, secure systems, and building practical applications. I enjoy solving problems, learning new tools, and improving code quality.</p>
+      <h4>Technical Skills</h4>
+      <ul>
+        <li>Programming: C, C++, Python, Java</li>
+        <li>Web: HTML, CSS, JavaScript</li>
+        <li>Tools: VSCode, GitHub, CodeBlocks, Canva, Excel, PowerPoint</li>
+        <li>Core Concepts: Data Structures & Algorithms, Design & Analysis of Algorithms</li>
+      </ul>
+      <h4>Certifications & Coding Profiles</h4>
+      <ul>
+        <li>Spoken Tutorial C Training — IIT Bombay (2024)</li>
+        <li>Spoken Tutorial C++ Training — IIT Bombay (2024)</li>
+        <li>SkillRack: Solved 500+ programs</li>
+        <li>LeetCode: Solved 60+ problems</li>
+      </ul>
+    </section>
+
+    <section id="education" class="container about">
+      <h3>Education</h3>
+      <ul>
+        <li>B.E CSE (Cybersecurity), Sri Eshwar College of Engineering — 2024–2028 — CGPA: 7 (upto 1st Semester)</li>
+        <li>HSC — 2022–2024 — 97.6%</li>
+        <li>SSLC — 2021–2022 — 82%</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <p>Phone: <a href="tel:+919629616965">9629616965</a></p>
+      <p>Email: <a href="mailto:kamalesh.kv2024csecs@sece.ac.in">kamalesh.kv2024csecs@sece.ac.in</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/kamalesh-k-v" target="_blank" rel="noopener">Kamalesh K V</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Your Name</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
